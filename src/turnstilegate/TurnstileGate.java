@@ -254,8 +254,8 @@ public class TurnstileGate implements INConnectorEvent  {
                           CardTransaction card = (CardTransaction) watchEvent.EventData;
 
         String doorScanned = card.DoorNum() == 2 ? "right" : "left";
-        String scannedType = card.DoorNum() == 2 ? "exit" : "entry";
-        String door_name = "Door2";
+        String scannedType = card.DoorNum() == 2 ? "entry" : "exit";
+        String door_name = "Door1";
         String request_type = "checking";
         StringBuilder parameters = new StringBuilder();
         parameters.append("id_number=").append(card.CardData)
