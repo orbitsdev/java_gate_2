@@ -101,7 +101,7 @@ public class TurnstileGate implements INConnectorEvent  {
         tcpClient.RestartCount = 0;//重新连接次数	
 //ORIGINAL        
 // Door8800Identity idt = new Door8800Identity("MC-5924T24044186", "ffffffff", E_ControllerType.Door8900);
-        Door8800Identity idt = new Door8800Identity("MC-5924T24044165", "ffffffdf", E_ControllerType.Door8900);
+        Door8800Identity idt = new Door8800Identity("MC-5924T23114147", "ffffffff", E_ControllerType.Door8900);
 //        CommandDetail commandDetail = new CommandDetail();
         commandDetail.Connector = tcpClient;
         commandDetail.Identity = idt;
